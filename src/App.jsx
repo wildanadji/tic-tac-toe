@@ -62,7 +62,6 @@ function calculateWinner(squares) {
     if (squares[a] && squares[a] === squares[b] && squares[c]) {
       return squares[a];
     }
-
-    return false;
   }
+  return false;
 }
